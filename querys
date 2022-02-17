@@ -1,0 +1,53 @@
+select * from notas_remision where date(fecha) >= date('2020-02-21');
+select * from VENTA;
+select * from notas_remision;
+select * from compra;
+select * from detalle_compra;
+
+SELECT tipo_operacion, sum(monto) as total
+ from notas_remision 
+ where fecha ='2020-02-21' group by tipo_operacion;
+ 
+SELECT tipo_operacion, sum(monto) as total from notas_remision 
+where fecha = '2020-02-21' AND flag !=3 group by tipo_operacion;
+
+SELECT tipo_operacion, sum(monto) as total from notas_remision 
+where date(fecha) between date('2020-02-21') and date('2020-02-21') AND flag !=3 group by tipo_operacion;
+
+select * from VENTA where length(codigo_factura)>0;
+
+select * from VENTA vt1 
+left join notas_remision vt2 
+on vt1.id_nota_rem = vt2.id_nota_rem 
+LEFT JOIN CLIENTE VT3
+ ON vt1.codigo_cliente = vt3.codigo_cliente where vt1.fecha = '2020-02-21' order by vt1.tipo_venta;
+
+select * from VENTA vt1 
+left join notas_remision vt2 
+on vt1.id_nota_rem = vt2.id_nota_rem 
+LEFT JOIN CLIENTE VT3
+ON vt1.codigo_cliente = vt3.codigo_cliente 
+where date(vt1.fecha) between date('2020-02-01') and date('2020-02-28') order by vt1.tipo_venta;
+ 
+select vt1.fecha, vt2.tipo_operacion, VT3.nombre, vt1.codigo_factura, vt2.folio, vt2.monto from VENTA vt1 
+left join notas_remision vt2 
+on vt1.id_nota_rem = vt2.id_nota_rem 
+LEFT JOIN CLIENTE VT3
+ ON vt1.codigo_cliente = vt3.codigo_cliente;
+ 
+select * from VENTA vt1 
+left join notas_remision vt2 
+on vt1.id_nota_rem = vt2.id_nota_rem 
+LEFT JOIN CLIENTE VT3
+ ON vt1.codigo_cliente = vt3.codigo_cliente;
+ 
+update venta set tipo_venta = 'Sistema Efectivo' where fecha = '2020-02-24';
+update venta set tipo_venta = 'Remision Efectivo' where length(codigo_factura)=0;
+update venta set tipo_venta = 'Remision Efectivo' where length(codigo_factura)>0;
+update venta set tipo_venta = 'VENTA A CREDITO' where tipo_venta = 'CREDITO';
+
+update notas_remision set tipo_operacion = 'VENTA A CREDITO' WHERE tipo_operacion = 'CREDITO';
+
+
+
+
