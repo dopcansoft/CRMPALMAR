@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="traspaso" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9b98fbe2-0335-4890-a0bd-64ac67018884">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="DataSetProselec" uuid="f23d119a-7ea0-4900-871c-cdc89a768e05">
+		<field name="codigo_prod" class="java.lang.Integer"/>
+		<field name="descrprod" class="java.lang.String"/>
+		<field name="cantidad" class="java.lang.Integer"/>
+	</subDataset>
+	<parameter name="itemsProSelec" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="tiendaTraspaso" class="java.lang.String"/>
+	<parameter name="respRecibe" class="java.lang.String"/>
+	<parameter name="respEnvia" class="java.lang.String"/>
+	<parameter name="respTrasp" class="java.lang.String"/>
+	<parameter name="Sucursal" class="java.lang.String"/>
+	<parameter name="Fecha" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="53">
+			<staticText>
+				<reportElement x="119" y="29" width="329" height="24" uuid="20816727-dbe9-409c-a448-92f103a3385c"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TRASPASO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="572" height="29" uuid="a3563975-667e-4e39-9caa-534c39b8236d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TIENDAS PLAMAR]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="600" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table" style="table" x="24" y="143" width="511" height="425" uuid="e104b72b-af2f-4e1d-b666-7a0a706fd53f"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="DataSetProselec" uuid="f47bf175-bf0f-4d20-8fff-fd5835d67504">
+						<dataSourceExpression><![CDATA[$P{itemsProSelec}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="90" uuid="fc48ed62-660d-4382-82dd-3d619a7ec985">
+						<jr:columnHeader style="table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="7938710c-6684-4f89-98e1-2dda91ea6f28"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[CODIGO]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="f18531ea-c051-4b36-b212-486edf8dbc9f"/>
+								<textFieldExpression><![CDATA[$F{codigo_prod}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="326" uuid="3f054d77-9ec3-458b-9d4f-f57b8113c2b7">
+						<jr:columnHeader style="table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="326" height="30" uuid="8a7b1f26-667b-47db-94c3-2629231fea63"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[DESCRIPCION]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="326" height="20" uuid="3dce8593-cff7-4e11-97ff-193c92f7992b"/>
+								<textFieldExpression><![CDATA[$F{descrprod}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="4183665f-df30-4ba2-a9ef-8761ecb27271">
+						<jr:columnHeader style="table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="2f8d7de2-8ae7-41c2-a752-444b8da389c1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[CANTIDAD]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table_TD" height="20" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="64e24557-8a9a-478b-9fb0-a041491b0450"/>
+								<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="0" y="0" width="119" height="20" uuid="bd020300-2d69-49af-a27d-2d281f7c9cd9"/>
+				<text><![CDATA[SUCURSAL ENVIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="33" width="119" height="20" uuid="259ba07f-67a5-47c3-ae20-5f1c51a1b6aa"/>
+				<text><![CDATA[RESPONSABLE ENVIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="78" width="127" height="20" uuid="cb5cbc76-9d3b-4d17-9985-6c22413a56a0"/>
+				<text><![CDATA[SUCURSAL RECIBE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="111" width="127" height="20" uuid="cbe6dc1d-4891-4dc5-bc8e-7f7604ed1455"/>
+				<text><![CDATA[RESPONSABLE RECIBE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="297" y="78" width="110" height="20" uuid="8a18e006-d891-4752-8336-4131f80b23d6"/>
+				<text><![CDATA[RESP. TRANSPORTA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="127" y="78" width="170" height="20" uuid="2fdd0363-9d43-4b1c-a4d2-c5f60811104c"/>
+				<textFieldExpression><![CDATA[$P{tiendaTraspaso}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="119" y="33" width="178" height="20" uuid="824b30a5-ff2e-465e-a02f-cc4652e599d2"/>
+				<textFieldExpression><![CDATA[$P{respEnvia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="127" y="111" width="170" height="20" uuid="983a1fb8-8c7b-438d-8e5d-28f575adc4fd"/>
+				<textFieldExpression><![CDATA[$P{respRecibe}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="407" y="78" width="165" height="20" uuid="f7c2c55e-0481-4793-8d92-e8c85a4e0fe4"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$P{respTrasp}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="119" y="0" width="178" height="20" uuid="7bf39049-7093-44e2-be4d-c7897574bba2"/>
+				<textFieldExpression><![CDATA[$P{Sucursal}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="297" y="33" width="100" height="20" uuid="7b7662f7-6ffc-4702-83c2-9204bb5c3c01"/>
+				<text><![CDATA[FECHA]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="397" y="33" width="175" height="20" uuid="f56b0a71-3e10-429d-9703-59dae12424a6"/>
+				<textFieldExpression><![CDATA[$P{Fecha}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="397" y="27" width="80" height="20" uuid="db25e98d-2299-4efa-a019-97fc4dcc3c97"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="495" y="27" width="40" height="20" uuid="ece14d0f-222d-44bf-b225-75c581ba89de"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
