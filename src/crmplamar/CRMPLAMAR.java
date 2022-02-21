@@ -128,6 +128,7 @@ import java.io.FileReader;
 import javafx.beans.value.ObservableStringValue;
 import javafx.scene.control.PasswordField;
 import javafx.scene.input.KeyCode;
+import javafx.scene.layout.Priority;
 import javafx.stage.FileChooser;
 import javax.rmi.CORBA.Util;
 
@@ -166,6 +167,9 @@ public class CRMPLAMAR extends Application {
     detalle_compraDAO detCompDAO = new detalle_compraDAO();
     usuarioDAO userDAO = new usuarioDAO();
     bitacora_precioDAO bitacoraDAO = new bitacora_precioDAO();
+       TextField tfdescuento = new TextField();
+   Label lbDescuento = new Label();
+   Button btntDescuento = new Button();
         
     
     CLIENTE clIdent = new CLIENTE();
@@ -772,19 +776,27 @@ public class CRMPLAMAR extends Application {
           vbAreaTrabajo.getChildren().remove(0);
        }
     }
+        float MontoTotal = 0.0f;
+    float Descuento = 0.0f;
+   float MontoOriginal = 0.0f;
+   
     private VBox vistaCrearVenta(){
         
          if (detventa.size()>0){
             detventa = FXCollections.observableArrayList();
         }
         
+        tfdescuento.setText("");
+        lbDescuento.setText("Descuento");
+        btntDescuento.setText("Aplicar");
         tfCodigoCliente.setText("");
         tfNombre.setText("");
         tfRazonSocial.setText("");
         tfDomicilioFiscal.setText("");
         tfTelefono.setText("");
         tfRFC.setText("");
-        tfEmail.setText("");       
+        tfEmail.setText(""); 
+        
         
         VBox vbVistaPpal = new VBox();
 
@@ -807,6 +819,13 @@ public class CRMPLAMAR extends Application {
         Label lbMontoTotal = new Label("0.0");
         lbEtiquetaMonto.setFont(fuente);
         lbMontoTotal.setFont(fuente);
+        
+        btntDescuento.setOnAction((event) -> {
+        
+        Descuento = MontoOriginal / 100 * Float.parseFloat(tfdescuento.getText());
+        MontoTotal = MontoOriginal - Descuento;
+        lbMontoTotal.setText(String.valueOf(MontoTotal));
+        });
         
 	Label lbTipo_venta = new Label("Tipo de Venta: ");
         Label lbCodigoFactura = new Label("Codigo Factura");
@@ -1014,7 +1033,7 @@ public class CRMPLAMAR extends Application {
             float MontoTotal = 0.0f;
             for (detalle_venta detv : detventa){
                 MontoTotal = MontoTotal + detv.getSubTotal();
-                lbMontoTotal.setText(Float.toString(MontoTotal));               
+                lbMontoTotal.setText(Float.toString(MontoTotal));  
             }
         });       
 
@@ -1098,6 +1117,8 @@ public class CRMPLAMAR extends Application {
                             float MontoTotal = Float.parseFloat(lbMontoTotal.getText());
                             MontoTotal = MontoTotal + Integer.parseInt(tfCantidad.getText())* Float.parseFloat(tfPrecioVenta.getText());
                             lbMontoTotal.setText(Float.toString(MontoTotal));
+                            //MontoOriginal = Float.parseFloat(lbMontoTotal.getText());
+                            MontoOriginal = MontoTotal;
                             detventa.add(detvta);
                             //System.out.println("Cuantos van:"+detventa.size());
                         }else {
@@ -1131,6 +1152,13 @@ public class CRMPLAMAR extends Application {
         btnSeleccionarCliente.setOnAction((ActionEvent e)->{
             ventanaSeleccionarClientes();
         });
+        
+        GridPane gpDesscuento = new GridPane();
+        gpDesscuento.add(lbDescuento, 0,0);
+        gpDesscuento.add(tfdescuento, 1,0);
+        gpDesscuento.add(btntDescuento, 1,1);
+        gpDesscuento.setHgap(10);
+        gpDesscuento.setVgap(10);
         
         GridPane gpClienteSeleccionado = new GridPane();
         gpClienteSeleccionado.setPadding(new Insets(5, 5, 5, 5));
@@ -1220,12 +1248,13 @@ public class CRMPLAMAR extends Application {
         });
         
         HBox hbTotal = new HBox();
-        hbTotal.setPrefWidth(400);
-        hbTotal.setMaxWidth(500);
+        hbTotal.setPrefWidth(6000);
+        hbTotal.setMaxWidth(600);
         hbTotal.setMinWidth(400);
         hbTotal.setSpacing(10);
+        hbTotal.setHgrow(vbHead, Priority.ALWAYS);
         hbTotal.setAlignment(Pos.CENTER_RIGHT);
-        hbTotal.getChildren().addAll(lbEtiquetaMonto, lbMontoTotal);
+        hbTotal.getChildren().addAll(lbEtiquetaMonto, lbMontoTotal, gpDesscuento);
         
         hbCompSeleccion.getChildren().addAll(vbCodigo, vbDesc, vbCat, btnBuscarProductos, hbTotal);
         hbCompSeleccion.setPadding(new Insets(10, 10, 10, 10));
