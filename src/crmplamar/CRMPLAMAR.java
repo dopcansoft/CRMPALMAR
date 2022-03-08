@@ -819,6 +819,7 @@ public class CRMPLAMAR extends Application {
         Label lbMontoTotal = new Label("0.0");
         lbEtiquetaMonto.setFont(fuente);
         lbMontoTotal.setFont(fuente);
+        tfdescuento.setText("0.0");
         
         btntDescuento.setOnAction((event) -> {
         
@@ -1355,7 +1356,8 @@ public class CRMPLAMAR extends Application {
                            else if (!tfCodigoFactura.getText().isEmpty() && cbTipoVenta.getValue().toString().compareTo("EFECTIVO")==0 )
                              notaRem.setTipo_operacion("SISTEMA "+cbTipoVenta.getValue().toString());
                            else notaRem.setTipo_operacion(cbTipoVenta.getValue().toString());
-            
+                           notaRem.setDescuento(Float.parseFloat(tfdescuento.getText()));
+                           System.out.println(Float.parseFloat(tfdescuento.getText()));
                            Credito cred = new Credito();
                            cred.setBandera(1);
                            cred.setCodigo_cliente(Integer.parseInt(tfCodigoCliente.getText()));
@@ -4136,7 +4138,6 @@ public class CRMPLAMAR extends Application {
         return vbVistaPpal; 
     }
     private VBox vistaNuevoProducto(){
-        
         if (detventa.size()>0){
             detventa = FXCollections.observableArrayList();
         }
