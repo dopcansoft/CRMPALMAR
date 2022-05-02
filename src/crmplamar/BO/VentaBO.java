@@ -19,10 +19,6 @@ import crmplamar.identidad.VENTA;
 import crmplamar.identidad.detalle_venta;
 import crmplamar.identidad.Credito;
 import crmplamar.identidad.apartado;
-import java.time.LocalDateTime;
-
-import java.util.ArrayList;
-import java.util.List;
 import javafx.collections.ObservableList;
 
 /**

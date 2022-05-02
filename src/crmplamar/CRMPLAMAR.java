@@ -102,7 +102,6 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.text.Font;
-import javafx.collections.ObservableArray;
 import javafx.embed.swing.SwingNode;
 import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
@@ -116,7 +115,6 @@ import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import net.sf.jasperreports.engine.util.JRLoader;
 import net.sf.jasperreports.swing.JRViewer;
-import java.util.Locale;
 import javafx.scene.control.ListView;
 
 import org.apache.commons.net.ftp.FTP;
@@ -125,12 +123,16 @@ import com.opencsv.*;
 import com.opencsv.exceptions.CsvValidationException;
 import java.awt.Dimension;
 import java.io.FileReader;
-import javafx.beans.value.ObservableStringValue;
+import java.io.InputStream;
 import javafx.scene.control.PasswordField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Priority;
 import javafx.stage.FileChooser;
-import javax.rmi.CORBA.Util;
+import javafx.stage.FileChooser.ExtensionFilter;
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 
 /**
@@ -167,11 +169,7 @@ public class CRMPLAMAR extends Application {
     detalle_compraDAO detCompDAO = new detalle_compraDAO();
     usuarioDAO userDAO = new usuarioDAO();
     bitacora_precioDAO bitacoraDAO = new bitacora_precioDAO();
-       TextField tfdescuento = new TextField();
-   Label lbDescuento = new Label();
-   Button btntDescuento = new Button();
-        
-    
+
     CLIENTE clIdent = new CLIENTE();
     categoria catIdent = new categoria();
     notas_remision notRem = new notas_remision();
@@ -271,6 +269,13 @@ public class CRMPLAMAR extends Application {
     MenuItem miEliminarCuenta = new MenuItem("EliminarCuenta..");
     MenuItem miBitacoraPrecios = new MenuItem("Consultar Bitacora Precios..");
     
+    
+    Menu meHtasImport = new Menu("Importaciones");
+    MenuItem miImportaVentasXLS = new MenuItem("Importar  Ventas a xls");
+    MenuItem miImportaGastosXLS = new MenuItem("Importar Gastos a xls");
+    MenuItem miImportaCreditosXLS = new MenuItem("Importar Creditos a xls");
+    MenuItem miImportaApartadosXLS = new MenuItem("Importar Apartados a xls");
+    
     Menu mHerramientas = new Menu("Herramientas");
     MenuItem miCrearDB = new MenuItem("Crear Base de Datos vacia..");
     MenuItem miEliminarDB = new MenuItem("Eliminar Base de Datos..");
@@ -294,9 +299,6 @@ public class CRMPLAMAR extends Application {
     @Override
     public void start(Stage primaryStage) {
         primarioStage = primaryStage;
-
-        
-        
         SeparatorMenuItem miSepCompras = new SeparatorMenuItem();
         SeparatorMenuItem miSepTraspasos = new SeparatorMenuItem();
         SeparatorMenuItem miSepCategorias = new SeparatorMenuItem();
@@ -723,6 +725,32 @@ public class CRMPLAMAR extends Application {
               }
           });
           
+        miImportaVentasXLS.setOnAction((event) -> {
+            if (vbAreaTrabajo.getChildren().size() > 0) {
+                vbAreaTrabajo.getChildren().clear();
+            }
+            vbAreaTrabajo.getChildren().add(vistaImportarVentas());
+        });
+        
+        miImportaGastosXLS.setOnAction((event) -> {
+            if (vbAreaTrabajo.getChildren().size() > 0) {
+                vbAreaTrabajo.getChildren().clear();
+            }
+            //vbAreaTrabajo.getChildren().add(pExportaGasto.vistaExportarGasto(vbAreTrabajo));
+        });
+        
+        miImportaCreditosXLS.setOnAction((event) -> {
+            if (vbAreaTrabajo.getChildren().size() > 0) {
+                vbAreaTrabajo.getChildren().clear();
+            }
+            //vbAreaTrabajo.getChildren().add(pExportaCredito.vistaExportarCredito(vbAreTrabajo));
+        });
+        
+        miImportaApartadosXLS.setOnAction((event) -> {
+            if (vbAreaTrabajo.getChildren().size() > 0) {
+                vbAreaTrabajo.getChildren().clear();
+            } 
+        });
          
           miSalir.setOnAction(((event) -> {
                 primaryStage.close();
@@ -744,7 +772,8 @@ public class CRMPLAMAR extends Application {
         mReporte.getItems().addAll(miGenerarReporte, mSubirReporte);        
         mConceptos.getItems().addAll(miAgregarConcepto, miModificarConcepto, miEliminarConcepto);
         mGastos.getItems().addAll(miAgregarGastos, miModificarGastos, miEliminarGastos, miConsultarGastos, spCatalogoGastos, mConceptos);
-        mAdmin.getItems().addAll(miIdentificarSucursal, miCrearCuenta, miModificarCuenta, miEliminarCuenta, miBitacoraPrecios);          
+        mAdmin.getItems().addAll(miIdentificarSucursal, miCrearCuenta, miModificarCuenta, miEliminarCuenta, miBitacoraPrecios);
+        meHtasImport.getItems().addAll(miImportaVentasXLS, miImportaGastosXLS, miImportaCreditosXLS, miImportaApartadosXLS);
         //mHerramientas.getItems().addAll(miCrearDB, miEliminarDB, miRespaldarDB, miFullScreen, miSalir);
         mHerramientas.getItems().addAll(miFullScreen, miSalir);
         
@@ -753,7 +782,7 @@ public class CRMPLAMAR extends Application {
         double h= screenSize.getHeight();
         double w= screenSize.getWidth();        
         vbAreaTrabajo.setPrefSize(w, h-45);
-        MenuBar mbPpal = new MenuBar(mVentas, mNotas, mInventario, mClientes, mProveedores, mReporte, mGastos, mAdmin,  mHerramientas);
+        MenuBar mbPpal = new MenuBar(mVentas, mNotas, mInventario, mClientes, mProveedores, mReporte, mGastos, mAdmin,  meHtasImport, mHerramientas);
         VBox vbPpal = new VBox(mbPpal);
         vbPpal.setPadding(new Insets(5,5,5,5));
         vbPpal.getChildren().addAll(vbAreaTrabajo, hbBarraEstado);
@@ -781,11 +810,18 @@ public class CRMPLAMAR extends Application {
    float MontoOriginal = 0.0f;
    
     private VBox vistaCrearVenta(){
+       TextField tfdescuento = new TextField();
+       Label lbDescuento = new Label();
+       Label lbCanDescuento = new Label();
+       HBox hbDescuento = new HBox();
+       Button btntDescuento = new Button();
         
          if (detventa.size()>0){
             detventa = FXCollections.observableArrayList();
         }
-        
+        tfdescuento.setPrefWidth(180);
+        tfdescuento.setMaxWidth(180);
+        tfdescuento.setMinWidth(180);
         tfdescuento.setText("");
         lbDescuento.setText("Descuento");
         btntDescuento.setText("Aplicar");
@@ -801,8 +837,9 @@ public class CRMPLAMAR extends Application {
         VBox vbVistaPpal = new VBox();
 
         Label lbTituloVista = new Label("REGISTRAR UNA VENTA");
-        Font fuente = new Font("Arial Bold", 36);
+        Font fuente = new Font("Arial Bold", 30);
         lbTituloVista.setFont(fuente);
+        Font fuenteMontoTotal = new Font("Arial Bold", 20);
         
         //Etiquetas/datos de la Remisión
         Label lbFolio = new Label("Folio de Nota: ");
@@ -817,15 +854,20 @@ public class CRMPLAMAR extends Application {
         //Etiquetas/Datos de la Venta
         Label lbEtiquetaMonto = new Label("TOTAL: $ ");
         Label lbMontoTotal = new Label("0.0");
-        lbEtiquetaMonto.setFont(fuente);
-        lbMontoTotal.setFont(fuente);
+        lbMontoTotal.setPrefWidth(120);
+        lbMontoTotal.setMaxWidth(120);
+        lbMontoTotal.setMinWidth(120);
+        lbEtiquetaMonto.setFont(fuenteMontoTotal);
+        lbMontoTotal.setFont(fuenteMontoTotal);
         
         btntDescuento.setOnAction((event) -> {
         
         Descuento = MontoOriginal / 100 * Float.parseFloat(tfdescuento.getText());
         MontoTotal = MontoOriginal - Descuento;
         lbMontoTotal.setText(String.valueOf(MontoTotal));
+        lbCanDescuento.setText("Descuento:"+Descuento);
         });
+        hbDescuento.getChildren().addAll(btntDescuento, lbCanDescuento);
         
 	Label lbTipo_venta = new Label("Tipo de Venta: ");
         Label lbCodigoFactura = new Label("Codigo Factura");
@@ -1154,9 +1196,10 @@ public class CRMPLAMAR extends Application {
         });
         
         GridPane gpDesscuento = new GridPane();
+        hbDescuento.setSpacing(5);
         gpDesscuento.add(lbDescuento, 0,0);
         gpDesscuento.add(tfdescuento, 1,0);
-        gpDesscuento.add(btntDescuento, 1,1);
+        gpDesscuento.add(hbDescuento, 1,1);
         gpDesscuento.setHgap(10);
         gpDesscuento.setVgap(10);
         
@@ -1355,7 +1398,11 @@ public class CRMPLAMAR extends Application {
                            else if (!tfCodigoFactura.getText().isEmpty() && cbTipoVenta.getValue().toString().compareTo("EFECTIVO")==0 )
                              notaRem.setTipo_operacion("SISTEMA "+cbTipoVenta.getValue().toString());
                            else notaRem.setTipo_operacion(cbTipoVenta.getValue().toString());
-            
+                           if (Float.parseFloat(tfdescuento.getText()) <= 0)
+                            notaRem.setDescuento(0.0f);
+                           else
+                            notaRem.setDescuento(Float.parseFloat(tfdescuento.getText()));
+                           System.out.println(Float.parseFloat(tfdescuento.getText()));
                            Credito cred = new Credito();
                            cred.setBandera(1);
                            cred.setCodigo_cliente(Integer.parseInt(tfCodigoCliente.getText()));
@@ -1460,6 +1507,11 @@ public class CRMPLAMAR extends Application {
         return vbVistaPpal; 
     }
     private VBox vistaConsultarVenta(){
+       TextField tfdescuento = new TextField();
+       Label lbDescuento = new Label();
+       Label lbCanDescuento = new Label();
+       HBox hbDescuento = new HBox();  
+       hbDescuento.getChildren().addAll(lbCanDescuento);
         
          if (detventa.size()>0){
             detventa = FXCollections.observableArrayList();
@@ -1476,7 +1528,7 @@ public class CRMPLAMAR extends Application {
         VBox vbVistaPpal = new VBox();
 
         Label lbTituloVista = new Label("CONSULTAR DETALLES DE VENTA");
-        Font fuente = new Font("Arial Bold", 36);
+        Font fuente = new Font("Arial Bold", 30);
         lbTituloVista.setFont(fuente);
         
         //Etiquetas/datos de la Remisión
@@ -1487,18 +1539,34 @@ public class CRMPLAMAR extends Application {
         DatePicker dpFecha = new DatePicker(LocalDate.now());
         
         //Etiquetas/Datos de la Venta
+        Font fuenteTotal = new Font("Arial Bold", 15);
         Label lbEtiquetaMonto = new Label("TOTAL: $ ");
         Label lbMontoTotal = new Label("0.0");
-        lbEtiquetaMonto.setFont(fuente);
-        lbMontoTotal.setFont(fuente);
+        lbMontoTotal.setPrefWidth(120);
+        lbMontoTotal.setMinWidth(120);
+        lbMontoTotal.setMaxWidth(120);
+        lbEtiquetaMonto.setFont(fuenteTotal);
+        lbMontoTotal.setFont(fuenteTotal);
         
         //Componentes para busqueda de ventas
         Label lbBuscarPorFecha = new  Label("Fecha:");
         Label lbBuscarPorTipo = new Label("Tipo Venta :");
         Label lbBuscarPorProducto = new Label("Producto :");
         DatePicker dpBuscarPorFecha = new DatePicker(LocalDate.now());
+        dpBuscarPorFecha.setPrefWidth(140);
+        dpBuscarPorFecha.setMaxWidth(140);
+        dpBuscarPorFecha.setMinWidth(140);
+        
         TextField tfBuscarPorTipo = new TextField();
+        tfBuscarPorTipo.setPrefWidth(140);
+        tfBuscarPorTipo.setMaxWidth(140);
+        tfBuscarPorTipo.setMinWidth(140);
+        
         TextField tfBuscarPorProducto = new TextField();
+        tfBuscarPorProducto.setPrefWidth(140);
+        tfBuscarPorProducto.setMaxWidth(140);
+        tfBuscarPorProducto.setMinWidth(140);
+        
         Button btnBuscarVenta = new Button("Buscar Ventas");
 
         
@@ -1687,6 +1755,11 @@ public class CRMPLAMAR extends Application {
             lstWhereConcepto.add("id_nota_rem = "+vtaTemp.getId_nota_rem());
             notas_remision notasRemTemp = notasDAO.consultarNotasRem(lstWhereConcepto).get(0);
             tfFolio.setText(String.valueOf(notasRemTemp.getFolio()));
+           
+            tfdescuento.setText(String.valueOf(notasRemTemp.getDescuento()));
+
+//        
+            
             if(!detventa.isEmpty()){
                detventa.clear();
             }
@@ -1694,18 +1767,26 @@ public class CRMPLAMAR extends Application {
             lstWhereConcepto.add("codigo_nota_venta = "+vtaTemp.getCodigo_nota_venta());
             detventa = FXCollections.observableArrayList(detventaDAO.consultaDetVenta(lstWhereConcepto));
             lbMontoTotal.setText("0.0");
+            float MontoTotal = 0.0f;
             for (detalle_venta detv : detventa){
                 lstWhere.clear();
                 lstWhere.add("codigo_prod = "+detv.getCodigo_prod());
                 inventario ivTemp = invent.consultaInventario(lstWhere).get(0);
                 detv.setExistencia(ivTemp.getExistencia());
                 detv.setSubTotal(detv.getCantidad()* detv.getPrecio_venta());
-                float MontoTotal = Float.parseFloat(lbMontoTotal.getText());
+                MontoTotal = Float.parseFloat(lbMontoTotal.getText());
                 MontoTotal = MontoTotal + detv.getSubTotal();
                 lbMontoTotal.setText(Float.toString(MontoTotal));               
             }
             tvProductosSelecc.setItems(detventa);
+            MontoOriginal=MontoTotal;
+            Descuento = Math.round(((MontoOriginal / 100 * Float.parseFloat(tfdescuento.getText()))*100.0)/100.0);
+            MontoTotal = MontoOriginal - Descuento;
+            lbMontoTotal.setText(String.valueOf(MontoTotal));
+            lbCanDescuento.setText("Descuento:"+Descuento);
         });        
+        
+
         
         GridPane gpClienteSeleccionado = new GridPane();
         gpClienteSeleccionado.setPadding(new Insets(5, 5, 5, 5));
@@ -1759,14 +1840,23 @@ public class CRMPLAMAR extends Application {
         gpBloqueVenta.add(tfCodigoFactura , 1, 1);
                
         gpBloqueVenta.add(lbFolio , 2, 1);
-        gpBloqueVenta.add(tfFolio, 3, 1);       
+        gpBloqueVenta.add(tfFolio, 3, 1); 
+        
+        GridPane gpDesscuento = new GridPane();
+        hbDescuento.setSpacing(5);
+        gpDesscuento.add(lbDescuento, 0,0);
+        gpDesscuento.add(tfdescuento, 1,0);
+        gpDesscuento.add(hbDescuento, 1,1);
+        gpDesscuento.setHgap(10);
+        gpDesscuento.setVgap(10);
+        
         HBox hbTotal = new HBox();
         hbTotal.setPrefWidth(400);
         hbTotal.setMaxWidth(500);
         hbTotal.setMinWidth(400);
         hbTotal.setSpacing(10);
         hbTotal.setAlignment(Pos.CENTER_RIGHT);
-        hbTotal.getChildren().addAll(lbEtiquetaMonto, lbMontoTotal);
+        hbTotal.getChildren().addAll(lbEtiquetaMonto, lbMontoTotal, gpDesscuento);
         
         hbCompSeleccion.getChildren().addAll(hbTipoSeleccion, hbTotal);
         hbCompSeleccion.setPadding(new Insets(10, 10, 10, 10));
@@ -10247,6 +10337,272 @@ public class CRMPLAMAR extends Application {
         return vbVistaPpal; 
         
     }
+    private VBox vistaImportarVentas(){
+        
+        VBox vbPpal = new VBox();
+        vbPpal.setSpacing(10);
+        vbPpal.setAlignment(Pos.CENTER);
+        Label lbTituloVista = new Label("IMPORTAR EXCEL");
+        Font fuente = new Font("Arial Bold", 36);
+        lbTituloVista.setFont(fuente);
+        
+        if(!lstNotasRem.isEmpty()){lstNotasRem.clear();}
+        
+        //Componentes de seleccion
+        
+        Button btnAbrirArchivo = new Button("Abrir archivo");
+        Label lbArchivoSeleccionado = new Label("Archivo Seleccionado: ");
+        TextField tfArchivoSeleccionado = new TextField();
+        tfArchivoSeleccionado.setPrefWidth(400);
+        
+        GridPane gpCompSeleccion = new GridPane();
+        gpCompSeleccion.setVgap(10);
+        gpCompSeleccion.setHgap(10);
+        gpCompSeleccion.add(btnAbrirArchivo, 0, 0);
+        gpCompSeleccion.add(lbArchivoSeleccionado, 1, 0);
+        gpCompSeleccion.add(tfArchivoSeleccionado, 2, 0);
+        
+        List<String> lstWhere = new ArrayList();
+
+        TableView tvNotasRemision = new TableView();
+        tvNotasRemision.setPrefWidth(780);
+        tvNotasRemision.setMinWidth(780);
+        tvNotasRemision.setMaxWidth(780);
+        
+        TableColumn idNotaREmColumna = new TableColumn("Id Nota");
+        idNotaREmColumna.setMinWidth(80);
+        idNotaREmColumna.setCellValueFactory(new PropertyValueFactory<>("id_nota_rem"));
+        
+        TableColumn folioColumna = new TableColumn("Folio");
+        folioColumna.setMinWidth(100);
+        folioColumna.setCellValueFactory(new PropertyValueFactory<>("folio"));
+
+        TableColumn FechaColumna = new TableColumn("Fecha");
+        FechaColumna.setMinWidth(120);
+        FechaColumna.setCellValueFactory(new PropertyValueFactory<>("fecha"));
+        
+        TableColumn tipOperColumna = new TableColumn("Tipo Operacion");
+        tipOperColumna.setMinWidth(180);
+        tipOperColumna.setCellValueFactory(new PropertyValueFactory<>("tipo_operacion"));
+
+        TableColumn montoColumna = new TableColumn("Monto");
+        montoColumna.setMinWidth(180);
+        montoColumna.setCellValueFactory(new PropertyValueFactory<>("monto"));
+
+        TableColumn descuentoColumna = new TableColumn("Descuento");
+        descuentoColumna.setMinWidth(80);
+        descuentoColumna.setCellValueFactory(new PropertyValueFactory<>("descuento"));
+       
+        tvNotasRemision.getColumns().addAll(idNotaREmColumna, folioColumna, FechaColumna, tipOperColumna, montoColumna, descuentoColumna);
+        
+        btnAbrirArchivo.setOnAction((event) -> {
+
+             File selectedFile;
+             FileChooser fcSelecArchCarga = new FileChooser();
+             fcSelecArchCarga.setTitle("Selecciona Archivo Excel");
+             fcSelecArchCarga.getExtensionFilters().addAll(
+             new ExtensionFilter("Archivos xls", "*.xls"));
+             selectedFile = fcSelecArchCarga.showOpenDialog(primarioStage);
+             tfArchivoSeleccionado.setText(selectedFile.getAbsolutePath());
+               
+            InputStream inp;
+            HSSFWorkbook workbook;
+            try {
+                inp = new FileInputStream(selectedFile);
+                workbook = new HSSFWorkbook(inp);
+                HSSFSheet sheet = workbook.getSheetAt(0);
+                int iRow = 1;
+                HSSFRow row = sheet.getRow(iRow); 
+                
+                while(row!=null) 
+                {
+                    notas_remision notaRemision = new notas_remision();
+                    HSSFCell cellIdNotaRem = row.getCell(0);  
+                    double valueIdNotaRem = cellIdNotaRem.getNumericCellValue();
+                    HSSFCell cellFolio = row.getCell(1);  
+                    String valueFolio = cellFolio.getStringCellValue();
+                    HSSFCell cellFecha = row.getCell(2);  
+                    String valueFecha = cellFecha.getStringCellValue();
+                    HSSFCell cellTipoOperacion = row.getCell(3);  
+                    String valueTipoOperacion = cellTipoOperacion.getStringCellValue();
+                    HSSFCell cellMonto = row.getCell(4);  
+                    double valueMonto = cellMonto.getNumericCellValue();
+                    HSSFCell cellDescuento = row.getCell(5);  
+                    double valueDescuento = cellDescuento.getNumericCellValue();
+                    
+                    notaRemision.setId_nota_rem((int)valueIdNotaRem);
+                    notaRemision.setFolio(valueFolio);
+                    notaRemision.setFecha(valueFecha);
+                    notaRemision.setTipo_operacion(valueTipoOperacion);
+                    notaRemision.setMonto((float) valueMonto);
+                    notaRemision.setDescuento((float) valueDescuento);
+                    lstNotasRem.add(notaRemision);
+                    iRow++;  
+                    row = sheet.getRow(iRow);
+                }
+                
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            obtenerListaVentas(selectedFile.getAbsolutePath());
+            obtenerListaDetalleVenta(selectedFile.getAbsolutePath());
+            tvNotasRemision.setItems(lstNotasRem);
+        });
+        
+         Button btnCancelar = new Button("Salir");
+         btnCancelar.setOnAction((ActionEvent e)->{
+             if(vbAreaTrabajo.getChildren().size()>=0){
+                 vbAreaTrabajo.getChildren().remove(0);
+             }
+         });
+         
+         Button btnImportar = new Button("Importar");
+         btnImportar.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e) {   
+                
+                lstventa.forEach(venta -> System.out.println("Reg. venta: "+venta.getCodigo_factura()));
+                lstNotasRem.forEach(notaRem -> System.out.println("Reg. Nota: "+ notaRem.getFolio()));
+                detventa.forEach(detalleVenta -> System.out.println("Re. Det. Vetna: "+detalleVenta.getDescrprod()));
+                
+                lstNotasRem.forEach(notaRem -> {
+                    int numeroRegistroNotaRemi = notasDAO.insertarNotasRem(notaRem);
+                    System.out.println("id Reg. Nota Remi. "+String.valueOf(numeroRegistroNotaRemi));
+                    lstventa.forEach(venta ->{
+                        
+                       if(notaRem.getId_nota_rem() == venta.getId_nota_rem()){
+                           venta.setId_nota_rem(numeroRegistroNotaRemi);
+                           int numeroRegistroVenta = ventDAO.insertarVenta(venta);
+                           System.out.println("codigo Venta "+String.valueOf(numeroRegistroVenta));
+                           detventa.forEach(detalleVenta->{
+                               if(venta.getCodigo_nota_venta()==detalleVenta.getCodigo_nota_venta()){
+                                   detalleVenta.setCodigo_nota_venta(numeroRegistroVenta);
+                                  detventaDAO.insertarDetVenta(detalleVenta);
+                               }
+                           
+                           });
+                           
+                       }
+                    });
+                    System.out.println("Reg. Nota: "+ notaRem.getFolio());
+                    
+                });
+                
+                
+            }         
+        });
+         
+         HBox hbBotones = new HBox(btnCancelar, btnImportar);
+         hbBotones.setSpacing(10);
+        
+         GridPane gpPrincipal = new GridPane();
+         gpPrincipal.setHgap(10);
+         gpPrincipal.setVgap(10);
+         gpPrincipal.add(hbBotones, 0, 0);
+        
+         vbPpal.getChildren().addAll(lbTituloVista, gpCompSeleccion, tvNotasRemision, gpPrincipal);
+        return vbPpal;
+        
+    }
+    
+    private void obtenerListaVentas(String RutaFile){
+             if (!lstventa.isEmpty()){
+                 lstventa.clear();
+             }
+    
+             File selectedFile = new File(RutaFile);
+               
+            InputStream inp;
+            HSSFWorkbook workbook;
+            try {
+                inp = new FileInputStream(selectedFile);
+                workbook = new HSSFWorkbook(inp);
+                HSSFSheet sheet = workbook.getSheetAt(1);
+                int iRow = 1;
+                HSSFRow row = sheet.getRow(iRow); 
+                
+                while(row!=null) 
+                {
+                    VENTA venta = new VENTA();
+                    HSSFCell cellCodigoNotaVenta = row.getCell(0);  
+                    double valueCodigoVenta = cellCodigoNotaVenta.getNumericCellValue();
+                    HSSFCell cellFecha = row.getCell(1);  
+                    String valueFecha = cellFecha.getStringCellValue();
+                    HSSFCell cellTipoVenta = row.getCell(2);  
+                    String valueTipoVenta = cellTipoVenta.getStringCellValue();
+                    HSSFCell cellCodigoCliente = row.getCell(3);  
+                    double valueCodigoCliente = cellCodigoCliente.getNumericCellValue();
+                    HSSFCell cellCodigoFactura = row.getCell(4);  
+                    String valueCodigoFactura = cellCodigoFactura.getStringCellValue();
+                    HSSFCell cellIdNotaRem = row.getCell(5);  
+                    double valueIdNotaRem = cellIdNotaRem.getNumericCellValue();
+                    
+                    venta.setCodigo_nota_venta((int) valueCodigoVenta);
+                    venta.setFecha(valueFecha);
+                    venta.setTipo_venta(valueTipoVenta);
+                    venta.setCodigo_cliente((int) valueCodigoCliente);
+                    venta.setCodigo_factura(valueCodigoFactura);
+                    venta.setId_nota_rem((int)valueIdNotaRem);
+                    lstventa.add(venta);
+                    iRow++;  
+                    row = sheet.getRow(iRow);
+                }
+                
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            }
+    } 
+    private void  obtenerListaDetalleVenta(String RutaFile){
+             if (!detventa.isEmpty()){
+                 detventa.clear();
+             }
+    
+             File selectedFile = new File(RutaFile);
+               
+            InputStream inp;
+            HSSFWorkbook workbook;
+            try {
+                inp = new FileInputStream(selectedFile);
+                workbook = new HSSFWorkbook(inp);
+                HSSFSheet sheet = workbook.getSheetAt(2);
+                int iRow = 1;
+                HSSFRow row = sheet.getRow(iRow); 
+                
+                while(row!=null) 
+                {
+                    detalle_venta detVenta = new detalle_venta();
+                    HSSFCell cellIdDetalleVenta = row.getCell(0);  
+                    double valueIdDetalleVenta = cellIdDetalleVenta.getNumericCellValue();
+                    HSSFCell cellCodigoProducto = row.getCell(1);  
+                    double valueCodigoProducto = cellCodigoProducto.getNumericCellValue();
+                    HSSFCell cellDescripcion = row.getCell(2);  
+                    String valueDescripcion = cellDescripcion.getStringCellValue();
+                    HSSFCell cellCantidad = row.getCell(3);  
+                    double valueCantidad = cellCantidad.getNumericCellValue();
+                    HSSFCell cellCodigoNotaVenta = row.getCell(4);  
+                    double valueCodigoNotaVenta = cellCodigoNotaVenta.getNumericCellValue();
+                    
+                    detVenta.setId_detalle_venta((int) valueIdDetalleVenta);
+                    detVenta.setCodigo_prod((int)valueCodigoProducto);
+                    detVenta.setDescrprod(valueDescripcion);
+                    detVenta.setCantidad((int) valueCantidad);
+                    detVenta.setCodigo_nota_venta((int)valueCodigoNotaVenta);
+                    detventa.add(detVenta);
+                    iRow++;  
+                    row = sheet.getRow(iRow);
+                }
+                
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            
+    } 
     
     public void loginEmpresa(){
         Stage loginStage = new Stage();
