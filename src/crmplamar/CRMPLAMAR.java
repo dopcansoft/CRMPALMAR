@@ -4227,7 +4227,6 @@ public class CRMPLAMAR extends Application {
         return vbVistaPpal; 
     }
     private VBox vistaNuevoProducto(){
-        
         if (detventa.size()>0){
             detventa = FXCollections.observableArrayList();
         }
