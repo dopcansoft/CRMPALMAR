@@ -736,20 +736,21 @@ public class CRMPLAMAR extends Application {
             if (vbAreaTrabajo.getChildren().size() > 0) {
                 vbAreaTrabajo.getChildren().clear();
             }
-            //vbAreaTrabajo.getChildren().add(pExportaGasto.vistaExportarGasto(vbAreTrabajo));
+            vbAreaTrabajo.getChildren().add(vistaImportarGastos());
         });
         
         miImportaCreditosXLS.setOnAction((event) -> {
             if (vbAreaTrabajo.getChildren().size() > 0) {
                 vbAreaTrabajo.getChildren().clear();
             }
-            //vbAreaTrabajo.getChildren().add(pExportaCredito.vistaExportarCredito(vbAreTrabajo));
+            vbAreaTrabajo.getChildren().add(vistaImportarCreditos());
         });
         
         miImportaApartadosXLS.setOnAction((event) -> {
             if (vbAreaTrabajo.getChildren().size() > 0) {
                 vbAreaTrabajo.getChildren().clear();
             } 
+            vbAreaTrabajo.getChildren().add(vistaImportarApartados());
         });
          
           miSalir.setOnAction(((event) -> {
@@ -10342,7 +10343,7 @@ public class CRMPLAMAR extends Application {
         VBox vbPpal = new VBox();
         vbPpal.setSpacing(10);
         vbPpal.setAlignment(Pos.CENTER);
-        Label lbTituloVista = new Label("IMPORTAR EXCEL");
+        Label lbTituloVista = new Label("IMPORTAR VENTAS A EXCEL");
         Font fuente = new Font("Arial Bold", 36);
         lbTituloVista.setFont(fuente);
         
@@ -10479,12 +10480,66 @@ public class CRMPLAMAR extends Application {
                            detventa.forEach(detalleVenta->{
                                if(venta.getCodigo_nota_venta()==detalleVenta.getCodigo_nota_venta()){
                                    detalleVenta.setCodigo_nota_venta(numeroRegistroVenta);
-                                  detventaDAO.insertarDetVenta(detalleVenta);
+                                   detventaDAO.insertarDetVenta(detalleVenta);
+                                   System.out.println("Agrego Reg. Detalle Ventas:\n Codigo Nota Venta"
+                                              +detalleVenta.getCodigo_nota_venta()
+                                              +"\n Codigo Producto: "
+                                              +detalleVenta.getCodigo_prod());
+                                    inventarioDAO inventDAO = new inventarioDAO();
+                                    if (!lstWhere.isEmpty()) lstWhere.clear();
+                                    lstWhere.add("codigo_prod="+String.valueOf(detalleVenta.getCodigo_prod()));
+                                    inventario inventarioProducto = inventDAO.consultaInventario(lstWhere).get(0);
+                                    int restaInventario = inventarioProducto.getExistencia()-detalleVenta.getCantidad();
+                                    inventDAO.modificarExistenciaProducto(detalleVenta.getCodigo_prod(), restaInventario);
+                                    System.out.println("Modifico Exitencia en Inventario:\n Nva. Cant. "+restaInventario+"\n Producto: "
+                                               +detalleVenta.getCodigo_prod());
                                }
-                           
                            });
-                           
-                       }
+                           if(venta.getTipo_venta().compareTo("VENTA A CREDITO")==0){
+                                CreditoDAO credDAO = new CreditoDAO();
+                                Credito cred = new Credito();
+                                cred.setBandera(1);
+                                cred.setCodigo_cliente(venta.getCodigo_cliente());
+                                cred.setMonto(notaRem.getMonto());
+                                cred.setFecha(notaRem.getFecha());
+                                cred.setCodigo_nota_venta(numeroRegistroVenta);
+                                credDAO.insertarCredito(cred);
+                                System.out.println("Agrego Reg. Credito:\n Codigo Nota Venta: "
+                                        +cred.getCodigo_nota_venta()                               
+                                        +"\n Monto: "
+                                        +cred.getMonto()+"\n Cod. Cliente: "
+                                        +cred.getCodigo_cliente());
+                            }
+                            if(venta.getTipo_venta().compareTo("APARTADO")==0){
+                                  apartadoDAO apartDAO = new apartadoDAO();
+                                  apartado apart = new apartado();
+                                  apart.setBandera(1);
+                                  apart.setCodigo_cliente(venta.getCodigo_cliente());
+                                  apart.setMonto(notaRem.getMonto());
+                                  System.out.println("Monto Apartado: "+ apart.getMonto());
+                                  apart.setFecha(notaRem.getFecha());
+                                  
+                                  apart.setCodigo_nota_venta(numeroRegistroVenta);
+                                  apartDAO.insertarApartado(apart);
+                                  System.out.println("Agrego Reg. Apartado:\n Codigo Nota Venta"
+                                        +apart.getCodigo_nota_venta()
+                                        +"\n Monto: "
+                                        +apart.getMonto()
+                                        +"\n Cod. Cliente: "
+                                        +apart.getCodigo_cliente());
+                                
+                                  LocalDateTime ldtUserActividad = LocalDateTime.now();
+                                  System.out.println("Usuario:"+usrActivo.getNombre_completo()+"Fecha Hora: "+ldtUserActividad.toString());
+                                  Alert altMensaje =new Alert(Alert.AlertType.INFORMATION);
+                                  altMensaje.setContentText("Venta en Apartado Registrada");
+                                  altMensaje.setTitle("Informacion-Venta");
+                                  altMensaje.show();
+                            
+                            }
+                            
+                        }
+                        
+                       
                     });
                     System.out.println("Reg. Nota: "+ notaRem.getFolio());
                     
@@ -10503,6 +10558,408 @@ public class CRMPLAMAR extends Application {
          gpPrincipal.add(hbBotones, 0, 0);
         
          vbPpal.getChildren().addAll(lbTituloVista, gpCompSeleccion, tvNotasRemision, gpPrincipal);
+        return vbPpal;
+        
+    }
+    private VBox vistaImportarGastos(){
+        
+        VBox vbPpal = new VBox();
+        vbPpal.setSpacing(10);
+        vbPpal.setAlignment(Pos.CENTER);
+        Label lbTituloVista = new Label("IMPORTAR GASTOS A EXCEL");
+        Font fuente = new Font("Arial Bold", 36);
+        lbTituloVista.setFont(fuente);
+        
+        if(!gasList.isEmpty()){gasList.clear();}
+        
+        //Componentes de seleccion
+        
+        Button btnAbrirArchivo = new Button("Abrir archivo");
+        Label lbArchivoSeleccionado = new Label("Archivo Seleccionado: ");
+        TextField tfArchivoSeleccionado = new TextField();
+        tfArchivoSeleccionado.setPrefWidth(400);
+        
+        GridPane gpCompSeleccion = new GridPane();
+        gpCompSeleccion.setVgap(10);
+        gpCompSeleccion.setHgap(10);
+        gpCompSeleccion.add(btnAbrirArchivo, 0, 0);
+        gpCompSeleccion.add(lbArchivoSeleccionado, 1, 0);
+        gpCompSeleccion.add(tfArchivoSeleccionado, 2, 0);
+        
+        List<String> lstWhere = new ArrayList();
+
+        TableView tvGasto = new TableView();
+        tvGasto.setPrefWidth(780);
+        tvGasto.setMinWidth(780);
+        tvGasto.setMaxWidth(780);
+        
+        TableColumn idGastoColumna = new TableColumn("Id Gasto");
+        idGastoColumna.setMinWidth(80);
+        idGastoColumna.setCellValueFactory(new PropertyValueFactory<>("id_gasto"));
+        
+        TableColumn conceptoColumna = new TableColumn("Concepto");
+        conceptoColumna.setMinWidth(100);
+        conceptoColumna.setCellValueFactory(new PropertyValueFactory<>("Concepto"));
+
+        TableColumn FechaColumna = new TableColumn("Fecha");
+        FechaColumna.setMinWidth(120);
+        FechaColumna.setCellValueFactory(new PropertyValueFactory<>("fecha"));
+        
+        TableColumn montoColumna = new TableColumn("Monto");
+        montoColumna.setMinWidth(180);
+        montoColumna.setCellValueFactory(new PropertyValueFactory<>("monto"));
+
+        tvGasto.getColumns().addAll(idGastoColumna, conceptoColumna, FechaColumna, montoColumna);
+        
+        btnAbrirArchivo.setOnAction((event) -> {
+
+             File selectedFile;
+             FileChooser fcSelecArchCarga = new FileChooser();
+             fcSelecArchCarga.setTitle("Selecciona Archivo Excel");
+             fcSelecArchCarga.getExtensionFilters().addAll(
+             new ExtensionFilter("Archivos xls", "*.xls"));
+             selectedFile = fcSelecArchCarga.showOpenDialog(primarioStage);
+             tfArchivoSeleccionado.setText(selectedFile.getAbsolutePath());
+               
+            InputStream inp;
+            HSSFWorkbook workbook;
+            try {
+                inp = new FileInputStream(selectedFile);
+                workbook = new HSSFWorkbook(inp);
+                HSSFSheet sheet = workbook.getSheetAt(0);
+                int iRow = 1;
+                HSSFRow row = sheet.getRow(iRow); 
+                
+                while(row!=null) 
+                {
+                    gasto gast = new gasto();
+                    HSSFCell cellIdGasto = row.getCell(0);  
+                    double valueIdGasto = cellIdGasto.getNumericCellValue();
+                    HSSFCell cellConcepto = row.getCell(1);  
+                    String valueConcepto = cellConcepto.getStringCellValue();
+                    HSSFCell cellFecha = row.getCell(2);  
+                    String valueFecha = cellFecha.getStringCellValue();
+                    HSSFCell cellMonto = row.getCell(3);  
+                    double valueMonto = cellMonto.getNumericCellValue();
+                    
+                    gast.setId_gasto((int)valueIdGasto);
+                    gast.setConcepto(valueConcepto);
+                    gast.setFecha(valueFecha);
+                    gast.setMonto((float) valueMonto);
+                    gasList.add(gast);
+                    iRow++;  
+                    row = sheet.getRow(iRow);
+                }
+                
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            tvGasto.setItems(gasList);
+        });
+        
+         Button btnCancelar = new Button("Salir");
+         btnCancelar.setOnAction((ActionEvent e)->{
+             if(vbAreaTrabajo.getChildren().size()>=0){
+                 vbAreaTrabajo.getChildren().remove(0);
+             }
+         });
+         
+         Button btnImportar = new Button("Importar");
+         btnImportar.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e) {   
+                
+                gasList.forEach(gas -> {
+                   gasDAO.insertarGasto(gas);
+                });
+                Alert altMensaje =new Alert(Alert.AlertType.INFORMATION);
+                altMensaje.setContentText("Gasto Importado");
+                altMensaje.setTitle("Informacion-Gasto ");
+                altMensaje.show();
+            }         
+        });
+         
+         HBox hbBotones = new HBox(btnCancelar, btnImportar);
+         hbBotones.setSpacing(10);
+        
+         GridPane gpPrincipal = new GridPane();
+         gpPrincipal.setHgap(10);
+         gpPrincipal.setVgap(10);
+         gpPrincipal.add(hbBotones, 0, 0);
+        
+         vbPpal.getChildren().addAll(lbTituloVista, gpCompSeleccion, tvGasto, gpPrincipal);
+        return vbPpal;
+        
+    }
+    private VBox vistaImportarCreditos(){
+        
+        VBox vbPpal = new VBox();
+        vbPpal.setSpacing(10);
+        vbPpal.setAlignment(Pos.CENTER);
+        Label lbTituloVista = new Label("IMPORTAR CREDITOS A EXCEL");
+        Font fuente = new Font("Arial Bold", 36);
+        lbTituloVista.setFont(fuente);
+        
+        if(!lstPagosCre.isEmpty()){lstPagosCre.clear();}
+        
+        //Componentes de seleccion
+        
+        Button btnAbrirArchivo = new Button("Abrir archivo");
+        Label lbArchivoSeleccionado = new Label("Archivo Seleccionado: ");
+        TextField tfArchivoSeleccionado = new TextField();
+        tfArchivoSeleccionado.setPrefWidth(400);
+        
+        GridPane gpCompSeleccion = new GridPane();
+        gpCompSeleccion.setVgap(10);
+        gpCompSeleccion.setHgap(10);
+        gpCompSeleccion.add(btnAbrirArchivo, 0, 0);
+        gpCompSeleccion.add(lbArchivoSeleccionado, 1, 0);
+        gpCompSeleccion.add(tfArchivoSeleccionado, 2, 0);
+        
+        List<String> lstWhere = new ArrayList();
+
+        TableView tvPagoCredito = new TableView();
+        tvPagoCredito.setPrefWidth(780);
+        tvPagoCredito.setMinWidth(780);
+        tvPagoCredito.setMaxWidth(780);
+        
+        TableColumn idCreditoColumna = new TableColumn("Id Credito");
+        idCreditoColumna.setMinWidth(80);
+        idCreditoColumna.setCellValueFactory(new PropertyValueFactory<>("id_credito"));
+        
+        TableColumn folioColumna = new TableColumn("Folio");
+        folioColumna.setMinWidth(100);
+        folioColumna.setCellValueFactory(new PropertyValueFactory<>("folio"));
+
+        TableColumn FechaColumna = new TableColumn("Fecha");
+        FechaColumna.setMinWidth(120);
+        FechaColumna.setCellValueFactory(new PropertyValueFactory<>("fecha"));
+        
+        TableColumn montoColumna = new TableColumn("Monto");
+        montoColumna.setMinWidth(180);
+        montoColumna.setCellValueFactory(new PropertyValueFactory<>("monto"));
+
+       
+        tvPagoCredito.getColumns().addAll(idCreditoColumna, folioColumna, FechaColumna, montoColumna);
+        
+        btnAbrirArchivo.setOnAction((event) -> {
+
+             File selectedFile;
+             FileChooser fcSelecArchCarga = new FileChooser();
+             fcSelecArchCarga.setTitle("Selecciona Archivo Excel");
+             fcSelecArchCarga.getExtensionFilters().addAll(
+             new ExtensionFilter("Archivos xls", "*.xls"));
+             selectedFile = fcSelecArchCarga.showOpenDialog(primarioStage);
+             tfArchivoSeleccionado.setText(selectedFile.getAbsolutePath());
+               
+            InputStream inp;
+            HSSFWorkbook workbook;
+            try {
+                inp = new FileInputStream(selectedFile);
+                workbook = new HSSFWorkbook(inp);
+                HSSFSheet sheet = workbook.getSheetAt(0);
+                int iRow = 1;
+                HSSFRow row = sheet.getRow(iRow); 
+                
+                while(row!=null) 
+                {
+                    pagos_credito pagosCredito = new pagos_credito();
+                    HSSFCell cellFolioRemision = row.getCell(0);  
+                    String valueFolioRemision = cellFolioRemision.getStringCellValue();
+                    HSSFCell cellIdCredito = row.getCell(1);  
+                    double valueIdCredito = cellIdCredito.getNumericCellValue();
+                    HSSFCell cellFecha = row.getCell(2);  
+                    String valueFecha = cellFecha.getStringCellValue();
+                    HSSFCell cellMonto = row.getCell(3);  
+                    double valueMonto = cellMonto.getNumericCellValue();
+                    
+                    pagosCredito.setId_credito((int)valueIdCredito);
+                    pagosCredito.setFolio(valueFolioRemision);
+                    pagosCredito.setFecha(valueFecha);
+                    pagosCredito.setMonto((float) valueMonto);
+                    lstPagosCre.add(pagosCredito);
+                    iRow++;  
+                    row = sheet.getRow(iRow);
+                }
+                
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            tvPagoCredito.setItems(lstPagosCre);
+        });
+        
+         Button btnCancelar = new Button("Salir");
+         btnCancelar.setOnAction((ActionEvent e)->{
+             if(vbAreaTrabajo.getChildren().size()>=0){
+                 vbAreaTrabajo.getChildren().remove(0);
+             }
+         });
+         
+         Button btnImportar = new Button("Importar");
+         btnImportar.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e) {
+                
+                lstPagosCre.forEach(pagosCreditos -> {
+                   pagcreDAO.insertarPagoCred(pagosCreditos);
+                });
+                Alert altMensaje =new Alert(Alert.AlertType.INFORMATION);
+                altMensaje.setContentText("Credito Importado");
+                altMensaje.setTitle("Informacion-Pagos de Creditos ");
+                altMensaje.show();
+                
+                
+            }         
+        });
+         
+         HBox hbBotones = new HBox(btnCancelar, btnImportar);
+         hbBotones.setSpacing(10);
+        
+         GridPane gpPrincipal = new GridPane();
+         gpPrincipal.setHgap(10);
+         gpPrincipal.setVgap(10);
+         gpPrincipal.add(hbBotones, 0, 0);
+        
+         vbPpal.getChildren().addAll(lbTituloVista, gpCompSeleccion, tvPagoCredito, gpPrincipal);
+        return vbPpal;
+        
+    }
+    private VBox vistaImportarApartados(){
+        
+        VBox vbPpal = new VBox();
+        vbPpal.setSpacing(10);
+        vbPpal.setAlignment(Pos.CENTER);
+        Label lbTituloVista = new Label("IMPORTAR APARTADOS DE EXCEL");
+        Font fuente = new Font("Arial Bold", 36);
+        lbTituloVista.setFont(fuente);
+        
+        if(!lstPagosApa.isEmpty()){lstPagosApa.clear();}
+        
+        //Componentes de seleccion
+        
+        Button btnAbrirArchivo = new Button("Abrir archivo");
+        Label lbArchivoSeleccionado = new Label("Archivo Seleccionado: ");
+        TextField tfArchivoSeleccionado = new TextField();
+        tfArchivoSeleccionado.setPrefWidth(400);
+        
+        GridPane gpCompSeleccion = new GridPane();
+        gpCompSeleccion.setVgap(10);
+        gpCompSeleccion.setHgap(10);
+        gpCompSeleccion.add(btnAbrirArchivo, 0, 0);
+        gpCompSeleccion.add(lbArchivoSeleccionado, 1, 0);
+        gpCompSeleccion.add(tfArchivoSeleccionado, 2, 0);
+        
+        List<String> lstWhere = new ArrayList();
+
+        TableView tvPagoApartado = new TableView();
+        tvPagoApartado.setPrefWidth(780);
+        tvPagoApartado.setMinWidth(780);
+        tvPagoApartado.setMaxWidth(780);
+        
+        TableColumn idCreditoColumna = new TableColumn("Id Apartado");
+        idCreditoColumna.setMinWidth(80);
+        idCreditoColumna.setCellValueFactory(new PropertyValueFactory<>("id_apartado"));
+        
+        TableColumn folioColumna = new TableColumn("Folio");
+        folioColumna.setMinWidth(100);
+        folioColumna.setCellValueFactory(new PropertyValueFactory<>("folio"));
+
+        TableColumn FechaColumna = new TableColumn("Fecha");
+        FechaColumna.setMinWidth(120);
+        FechaColumna.setCellValueFactory(new PropertyValueFactory<>("fecha"));
+        
+        TableColumn montoColumna = new TableColumn("Monto");
+        montoColumna.setMinWidth(180);
+        montoColumna.setCellValueFactory(new PropertyValueFactory<>("monto"));
+
+       
+        tvPagoApartado.getColumns().addAll(idCreditoColumna, folioColumna, FechaColumna, montoColumna);
+        
+        btnAbrirArchivo.setOnAction((event) -> {
+
+             File selectedFile;
+             FileChooser fcSelecArchCarga = new FileChooser();
+             fcSelecArchCarga.setTitle("Selecciona Archivo Excel");
+             fcSelecArchCarga.getExtensionFilters().addAll(
+             new ExtensionFilter("Archivos xls", "*.xls"));
+             selectedFile = fcSelecArchCarga.showOpenDialog(primarioStage);
+             tfArchivoSeleccionado.setText(selectedFile.getAbsolutePath());
+               
+            InputStream inp;
+            HSSFWorkbook workbook;
+            try {
+                inp = new FileInputStream(selectedFile);
+                workbook = new HSSFWorkbook(inp);
+                HSSFSheet sheet = workbook.getSheetAt(0);
+                int iRow = 1;
+                HSSFRow row = sheet.getRow(iRow); 
+                
+                while(row!=null) 
+                {
+                    pagos_apartado pagosApartado = new pagos_apartado();
+                    HSSFCell cellFolioRemision = row.getCell(0);  
+                    String valueFolioRemision = cellFolioRemision.getStringCellValue();
+                    HSSFCell cellIdCredito = row.getCell(1);  
+                    double valueIdCredito = cellIdCredito.getNumericCellValue();
+                    HSSFCell cellFecha = row.getCell(2);  
+                    String valueFecha = cellFecha.getStringCellValue();
+                    HSSFCell cellMonto = row.getCell(3);  
+                    double valueMonto = cellMonto.getNumericCellValue();
+                    
+                    pagosApartado.setId_apartado((int)valueIdCredito);
+                    pagosApartado.setFolio(valueFolioRemision);
+                    pagosApartado.setFecha(valueFecha);
+                    pagosApartado.setMonto((float) valueMonto);
+                    lstPagosApa.add(pagosApartado);
+                    iRow++;  
+                    row = sheet.getRow(iRow);
+                }
+                
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(CRMPLAMAR.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            tvPagoApartado.setItems(lstPagosApa);
+        });
+        
+         Button btnCancelar = new Button("Salir");
+         btnCancelar.setOnAction((ActionEvent e)->{
+             if(vbAreaTrabajo.getChildren().size()>=0){
+                 vbAreaTrabajo.getChildren().remove(0);
+             }
+         });
+         
+         Button btnImportar = new Button("Importar");
+         btnImportar.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e) {
+                
+                lstPagosApa.forEach(pagosApartados -> {
+                   pagapaDAO.insertarPagosAP(pagosApartados);
+                });
+                Alert altMensaje =new Alert(Alert.AlertType.INFORMATION);
+                altMensaje.setContentText("Pagos Apartados Importado");
+                altMensaje.setTitle("Informacion-Pagos de Apartados ");
+                altMensaje.show();
+                
+                
+            }         
+        });
+         
+         HBox hbBotones = new HBox(btnCancelar, btnImportar);
+         hbBotones.setSpacing(10);
+        
+         GridPane gpPrincipal = new GridPane();
+         gpPrincipal.setHgap(10);
+         gpPrincipal.setVgap(10);
+         gpPrincipal.add(hbBotones, 0, 0);
+        
+         vbPpal.getChildren().addAll(lbTituloVista, gpCompSeleccion, tvPagoApartado, gpPrincipal);
         return vbPpal;
         
     }

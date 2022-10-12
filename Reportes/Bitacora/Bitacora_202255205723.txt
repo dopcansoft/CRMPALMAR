@@ -1,0 +1,28 @@
+Estableciendo conexion ..
+SELECT id_usuario, nombre_completo, tipo, usuario, clave FROM usuario where flag != 3 AND usuario = 'SuperUser' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+INSERT INTO gastos(concepto, fecha, monto, flag) VALUES (?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+INSERT INTO gastos(concepto, fecha, monto, flag) VALUES (?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+INSERT INTO gastos(concepto, fecha, monto, flag) VALUES (?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+INSERT INTO gastos(concepto, fecha, monto, flag) VALUES (?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_catalogo_gastos, concepto FROM catalogo_gastos where flag != 3 and id_catalogo_gastos is not null
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_gasto, concepto, fecha, monto, flag FROM gastos where flag != 3 AND fecha = '2022-05-05' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_gasto, concepto, fecha, monto, flag FROM gastos where flag != 3 AND fecha = '2022-05-02' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
