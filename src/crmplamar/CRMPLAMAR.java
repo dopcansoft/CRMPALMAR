@@ -11041,12 +11041,18 @@ public class CRMPLAMAR extends Application {
                     double valueCantidad = cellCantidad.getNumericCellValue();
                     HSSFCell cellCodigoNotaVenta = row.getCell(4);  
                     double valueCodigoNotaVenta = cellCodigoNotaVenta.getNumericCellValue();
+                    HSSFCell cellPrecioVenta = row.getCell(5);  
+                    double valuePrecioVenta = cellPrecioVenta.getNumericCellValue();
+                    HSSFCell cellSubTotal = row.getCell(6);  
+                    double valueSubTotal = cellSubTotal.getNumericCellValue();
                     
                     detVenta.setId_detalle_venta((int) valueIdDetalleVenta);
                     detVenta.setCodigo_prod((int)valueCodigoProducto);
                     detVenta.setDescrprod(valueDescripcion);
                     detVenta.setCantidad((int) valueCantidad);
                     detVenta.setCodigo_nota_venta((int)valueCodigoNotaVenta);
+                    detVenta.setPrecio_venta((float)valuePrecioVenta);
+                    detVenta.setSubTotal((float)valueSubTotal);
                     detventa.add(detVenta);
                     iRow++;  
                     row = sheet.getRow(iRow);

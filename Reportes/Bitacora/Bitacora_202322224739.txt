@@ -1,0 +1,500 @@
+Estableciendo conexion ..
+SELECT id_usuario, nombre_completo, tipo, usuario, clave FROM usuario where flag != 3 AND usuario = 'SuperUser' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+---*******--*FAC
+---*******--*FAC
+---*******--*FAC
+---*******--*FAC
+---*******--*FAC
+---*******--*FAC
+---*******--*FAC
+---*******--*FAC
+---*******--*FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. venta: FAC
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: JUEGO SARTEN 20-24-30 CON SARTENETA 28 2MM
+Re. Det. Vetna: SARTEN 30 TRADICIONALROJO  2MM
+Re. Det. Vetna: BATERIA ACAYUQUEÑA PINTADO
+Re. Det. Vetna: MESA DE 1.80 VERONA
+Re. Det. Vetna: BOTE SAN JUAN NEGRO C/TAPA
+Re. Det. Vetna: BOTE SAN JUAN COLOR C/TAPA 110LTS
+Re. Det. Vetna: VAPORERA 120 SENCILLO ABUELO
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: VENTILADOR ZFAN 18 PEDESTAL
+Re. Det. Vetna: SILLA ARUBA BLANCA 
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: CUBETA NO.16
+Re. Det. Vetna: CESTA CALADA CUADRADA
+Re. Det. Vetna: ESTANTE MULTICOLOR 
+Re. Det. Vetna: LICUADORA OSTERIZER VASO D/PLASTICO 10VL
+Re. Det. Vetna: LICUADORA OSTER 4 VELOCIDADES V/VIDRIO ROJA
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10990
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10515
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10515
+ Codigo Producto: 200619
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200619 Existencia:199
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 199
+ Producto: 200619
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10515
+ Codigo Producto: 201253
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=201253
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:201253 Existencia:19
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 19
+ Producto: 201253
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10515
+ Codigo Producto: 201251
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=201251
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:201251 Existencia:98
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 98
+ Producto: 201251
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10991
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10516
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10516
+ Codigo Producto: 201199
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=201199
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:201199 Existencia:47
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 47
+ Producto: 201199
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10992
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10517
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10517
+ Codigo Producto: 200332
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200332
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200332 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 200332
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10993
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10518
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10518
+ Codigo Producto: 200915
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200915
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200915 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 200915
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10518
+ Codigo Producto: 200348
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200348
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200348 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 200348
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10994
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10519
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10519
+ Codigo Producto: 201216
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=201216
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:201216 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 201216
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10995
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10520
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10520
+ Codigo Producto: 200619
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200619 Existencia:196
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 196
+ Producto: 200619
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10996
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10521
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10521
+ Codigo Producto: 200255
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200255
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200255 Existencia:199
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 199
+ Producto: 200255
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10521
+ Codigo Producto: 200321
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200321
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200321 Existencia:196
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 196
+ Producto: 200321
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10521
+ Codigo Producto: 200619
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200619 Existencia:195
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 195
+ Producto: 200619
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10997
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10522
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10522
+ Codigo Producto: 200967
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200967
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200967 Existencia:48
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 48
+ Producto: 200967
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10522
+ Codigo Producto: 200953
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=200953
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:200953 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 200953
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10998
+Estableciendo conexion ..
+INSERT INTO VENTA(fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Venta 10523
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10523
+ Codigo Producto: 201174
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=201174
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:201174 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 201174
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10523
+ Codigo Producto: 201232
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=201232
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:201232 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 201232
+Estableciendo conexion ..
+INSERT INTO detalle_venta(codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta, flag) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+Agrego Reg. Detalle Ventas:
+ Codigo Nota Venta10523
+ Codigo Producto: 201509
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod=201509
+Estableciendo conexion ..
+Connection to SQLite has been established.
+codigo Producto:201509 Existencia:49
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Modifico Exitencia en Inventario:
+ Nva. Cant. 49
+ Producto: 201509
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10999
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11000
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11001
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11002
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11003
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11004
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11005
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11006
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 11007
+Reg. Nota: AC-190
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where flag != 3 AND id_categoria is not null
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod is not null
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201509
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1018
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1018
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1061
+Estableciendo conexion ..
+Connection to SQLite has been established.

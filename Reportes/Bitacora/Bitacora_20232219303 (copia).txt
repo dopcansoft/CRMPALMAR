@@ -1,0 +1,3342 @@
+Estableciendo conexion ..
+SELECT id_usuario, nombre_completo, tipo, usuario, clave FROM usuario where flag != 3 AND usuario = 'SuperUser' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where flag != 3 AND id_categoria is not null
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod is not null
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1061
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'LAMEX'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1061
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200610
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200610
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1042
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'KANGY'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1042
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200610
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1061
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201253
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1061
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'LAMEX'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1061
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201251
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1061
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'LAMEX'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1061
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201199
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1066
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'EL ABUELO'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1066
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201199
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200332
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1060
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = ' DUNA'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1060
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200915
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1042
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'KANGY'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1042
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200348
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1042
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'KANGY'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1042
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200348
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201216
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1066
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'EL ABUELO'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1066
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1061
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200255
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1018
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'XAZE'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1018
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200255
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200321
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1060
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = ' DUNA'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1060
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200967
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1042
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'KANGY'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1042
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200967
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 200953
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1042
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'KANGY'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1042
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201174
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1036
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'LARA'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1036
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201174
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201232
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1018
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'XAZE'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1018
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201232
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov, id_categoria FROM inventario where flag != 3 AND codigo_prod = 201509
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where id_categoria = 1018
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_categoria, categoria, parent_id FROM categoria where categoria = 'XAZE'
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Id Categoria: 1018
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_gasto, concepto, fecha, monto, flag FROM gastos where flag != 3 AND fecha = '2023-01-26' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+SELECT tipo_operacion, sum(monto) as total from notas_remision where fecha = ? AND flag !=3 AND tipo_operacion <> 'APARTADO' group by tipo_operacion
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+select * from VENTA vt1 
+left join notas_remision vt2 
+on vt1.id_nota_rem = vt2.id_nota_rem 
+LEFT JOIN CLIENTE VT3 ON 
+vt1.codigo_cliente = vt3.codigo_cliente where vt1.fecha = ? AND vt1.flag !=3 AND vt2.flag !=3 AND vt1.tipo_venta <> 'APARTADO'  order by vt1.tipo_venta
+Fecha 1:->2023-01-01
+Estableciendo conexion ..
+Estableciendo conexion ..
+Connection to SQLite has been established.
+SELECT tipo_operacion, sum(monto) as total from notas_remision where date(fecha) between date(?) and date(?) AND flag !=3 AND tipo_operacion <> 'APARTADO' group by tipo_operacion;
+Estableciendo conexion ..
+SELECT id_pago_ap, folio, fecha, monto, id_apartado FROM pagos_apartado where flag !=3 and fecha = '2023-01-26' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_pago_cre, folio, fecha, monto, id_credito FROM pagos_credito where flag != 3 and fecha = '2023-01-26' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_nota_venta, fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem FROM VENTA where flag != 3 and fecha = '2023-01-26' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 86
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10522
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10506
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201253
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201251
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 1
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10523
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10507
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201199
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 73
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10524
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10508
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200332
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 129
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10525
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10509
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200915
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200348
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 122
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10526
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10510
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201216
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 86
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10522
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10506
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201253
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201251
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 1
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10523
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10507
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201199
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 73
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10524
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10508
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200332
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 129
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10525
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10509
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200915
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200348
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 122
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10526
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10510
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 201216
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_cliente, nombre, razon_social, domicilio_fiscal, telefono, rfc, email FROM CLIENTE where flag != 3 AND codigo_cliente = 130
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_nota_rem, folio, fecha, tipo_operacion, monto, descuento FROM notas_remision where flag !=3 AND id_nota_rem = 10527
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT id_detalle_venta, codigo_prod, descrprod, cantidad, codigo_nota_venta, precio_venta FROM detalle_venta where flag != 3 AND codigo_nota_venta = 10511
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_prod, existencia, id_ubicacion, precio_menudeo, precio_mayoreo, descripcion, unidad_medida, costo_compra, codigo_prov FROM inventario where flag != 3 AND codigo_prod = 200619
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Estableciendo conexion ..
+SELECT codigo_nota_venta, fecha, tipo_venta, codigo_cliente, codigo_factura, id_nota_rem FROM VENTA where flag != 3 and fecha = '2023-01-27' 
+Estableciendo conexion ..
+Connection to SQLite has been established.
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: JUEGO SARTEN 20-24-30 CON SARTENETA 28 2MM
+Re. Det. Vetna: SARTEN 30 TRADICIONALROJO  2MM
+Re. Det. Vetna: BATERIA ACAYUQUEÑA PINTADO
+Re. Det. Vetna: MESA DE 1.80 VERONA
+Re. Det. Vetna: BOTE SAN JUAN NEGRO C/TAPA
+Re. Det. Vetna: BOTE SAN JUAN COLOR C/TAPA 110LTS
+Re. Det. Vetna: VAPORERA 120 SENCILLO ABUELO
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: VENTILADOR ZFAN 18 PEDESTAL
+Re. Det. Vetna: SILLA ARUBA BLANCA 
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: CUBETA NO.16
+Re. Det. Vetna: CESTA CALADA CUADRADA
+Re. Det. Vetna: ESTANTE MULTICOLOR 
+Re. Det. Vetna: LICUADORA OSTERIZER VASO D/PLASTICO 10VL
+Re. Det. Vetna: LICUADORA OSTER 4 VELOCIDADES V/VIDRIO ROJA
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10540
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10541
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10542
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10543
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10544
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10545
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10546
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10547
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10548
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10549
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10550
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10551
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10552
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10553
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10554
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10555
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10556
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10557
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10558
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10559
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10560
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10561
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10562
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10563
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10564
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10565
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10566
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10567
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10568
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10569
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10570
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10571
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10572
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10573
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10574
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10575
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10576
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10577
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10578
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10579
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10580
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10581
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10582
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10583
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10584
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10585
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10586
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10587
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10588
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10589
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10590
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10591
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10592
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10593
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10594
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10595
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10596
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10597
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10598
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10599
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10600
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10601
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10602
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10603
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10604
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10605
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10606
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10607
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10608
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10609
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10610
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10611
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10612
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10613
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10614
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10615
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10616
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10617
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10618
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10619
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10620
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10621
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10622
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10623
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10624
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10625
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10626
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10627
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10628
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10629
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: JUEGO SARTEN 20-24-30 CON SARTENETA 28 2MM
+Re. Det. Vetna: SARTEN 30 TRADICIONALROJO  2MM
+Re. Det. Vetna: BATERIA ACAYUQUEÑA PINTADO
+Re. Det. Vetna: MESA DE 1.80 VERONA
+Re. Det. Vetna: BOTE SAN JUAN NEGRO C/TAPA
+Re. Det. Vetna: BOTE SAN JUAN COLOR C/TAPA 110LTS
+Re. Det. Vetna: VAPORERA 120 SENCILLO ABUELO
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: VENTILADOR ZFAN 18 PEDESTAL
+Re. Det. Vetna: SILLA ARUBA BLANCA 
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: CUBETA NO.16
+Re. Det. Vetna: CESTA CALADA CUADRADA
+Re. Det. Vetna: ESTANTE MULTICOLOR 
+Re. Det. Vetna: LICUADORA OSTERIZER VASO D/PLASTICO 10VL
+Re. Det. Vetna: LICUADORA OSTER 4 VELOCIDADES V/VIDRIO ROJA
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10630
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10631
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10632
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10633
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10634
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10635
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10636
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10637
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10638
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10639
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10640
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10641
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10642
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10643
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10644
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10645
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10646
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10647
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10648
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10649
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10650
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10651
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10652
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10653
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10654
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10655
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10656
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10657
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10658
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10659
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10660
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10661
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10662
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10663
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10664
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10665
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10666
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10667
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10668
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10669
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10670
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10671
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10672
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10673
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10674
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10675
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10676
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10677
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10678
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10679
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10680
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10681
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10682
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10683
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10684
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10685
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10686
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10687
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10688
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10689
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10690
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10691
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10692
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10693
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10694
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10695
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10696
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10697
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10698
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10699
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10700
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10701
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10702
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10703
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10704
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10705
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10706
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10707
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10708
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10709
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10710
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10711
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10712
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10713
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10714
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10715
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10716
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10717
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10718
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10719
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: JUEGO SARTEN 20-24-30 CON SARTENETA 28 2MM
+Re. Det. Vetna: SARTEN 30 TRADICIONALROJO  2MM
+Re. Det. Vetna: BATERIA ACAYUQUEÑA PINTADO
+Re. Det. Vetna: MESA DE 1.80 VERONA
+Re. Det. Vetna: BOTE SAN JUAN NEGRO C/TAPA
+Re. Det. Vetna: BOTE SAN JUAN COLOR C/TAPA 110LTS
+Re. Det. Vetna: VAPORERA 120 SENCILLO ABUELO
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: VENTILADOR ZFAN 18 PEDESTAL
+Re. Det. Vetna: SILLA ARUBA BLANCA 
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: CUBETA NO.16
+Re. Det. Vetna: CESTA CALADA CUADRADA
+Re. Det. Vetna: ESTANTE MULTICOLOR 
+Re. Det. Vetna: LICUADORA OSTERIZER VASO D/PLASTICO 10VL
+Re. Det. Vetna: LICUADORA OSTER 4 VELOCIDADES V/VIDRIO ROJA
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10720
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10721
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10722
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10723
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10724
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10725
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10726
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10727
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10728
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10729
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10730
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10731
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10732
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10733
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10734
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10735
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10736
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10737
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10738
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10739
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10740
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10741
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10742
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10743
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10744
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10745
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10746
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10747
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10748
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10749
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10750
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10751
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10752
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10753
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10754
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10755
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10756
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10757
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10758
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10759
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10760
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10761
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10762
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10763
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10764
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10765
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10766
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10767
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10768
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10769
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10770
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10771
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10772
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10773
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10774
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10775
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10776
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10777
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10778
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10779
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10780
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10781
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10782
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10783
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10784
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10785
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10786
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10787
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10788
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10789
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10790
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10791
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10792
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10793
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10794
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10795
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10796
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10797
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10798
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10799
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10800
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10801
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10802
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10803
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10804
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10805
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10806
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10807
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10808
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10809
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: JUEGO SARTEN 20-24-30 CON SARTENETA 28 2MM
+Re. Det. Vetna: SARTEN 30 TRADICIONALROJO  2MM
+Re. Det. Vetna: BATERIA ACAYUQUEÑA PINTADO
+Re. Det. Vetna: MESA DE 1.80 VERONA
+Re. Det. Vetna: BOTE SAN JUAN NEGRO C/TAPA
+Re. Det. Vetna: BOTE SAN JUAN COLOR C/TAPA 110LTS
+Re. Det. Vetna: VAPORERA 120 SENCILLO ABUELO
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: VENTILADOR ZFAN 18 PEDESTAL
+Re. Det. Vetna: SILLA ARUBA BLANCA 
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: CUBETA NO.16
+Re. Det. Vetna: CESTA CALADA CUADRADA
+Re. Det. Vetna: ESTANTE MULTICOLOR 
+Re. Det. Vetna: LICUADORA OSTERIZER VASO D/PLASTICO 10VL
+Re. Det. Vetna: LICUADORA OSTER 4 VELOCIDADES V/VIDRIO ROJA
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10810
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10811
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10812
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10813
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10814
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10815
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10816
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10817
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10818
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10819
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10820
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10821
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10822
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10823
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10824
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10825
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10826
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10827
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10828
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10829
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10830
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10831
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10832
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10833
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10834
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10835
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10836
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10837
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10838
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10839
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10840
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10841
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10842
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10843
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10844
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10845
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10846
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10847
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10848
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10849
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10850
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10851
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10852
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10853
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10854
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10855
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10856
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10857
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10858
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10859
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10860
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10861
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10862
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10863
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10864
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10865
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10866
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10867
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10868
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10869
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10870
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10871
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10872
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10873
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10874
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10875
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10876
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10877
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10878
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10879
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10880
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10881
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10882
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10883
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10884
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10885
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10886
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10887
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10888
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10889
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10890
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10891
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10892
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10893
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10894
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10895
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10896
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10897
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10898
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10899
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Reg. Nota: AC-182
+Reg. Nota: AC-183
+Reg. Nota: AC-184
+Reg. Nota: AC-185
+Reg. Nota: AC-186
+Reg. Nota: AC-187
+Reg. Nota: AC-188
+Reg. Nota: AC-189
+Reg. Nota: AC-190
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: JUEGO SARTEN 20-24-30 CON SARTENETA 28 2MM
+Re. Det. Vetna: SARTEN 30 TRADICIONALROJO  2MM
+Re. Det. Vetna: BATERIA ACAYUQUEÑA PINTADO
+Re. Det. Vetna: MESA DE 1.80 VERONA
+Re. Det. Vetna: BOTE SAN JUAN NEGRO C/TAPA
+Re. Det. Vetna: BOTE SAN JUAN COLOR C/TAPA 110LTS
+Re. Det. Vetna: VAPORERA 120 SENCILLO ABUELO
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: VENTILADOR ZFAN 18 PEDESTAL
+Re. Det. Vetna: SILLA ARUBA BLANCA 
+Re. Det. Vetna: JUEGO DE SARTEN 18-24-28 PROFUNDO 3.2MM
+Re. Det. Vetna: CUBETA NO.16
+Re. Det. Vetna: CESTA CALADA CUADRADA
+Re. Det. Vetna: ESTANTE MULTICOLOR 
+Re. Det. Vetna: LICUADORA OSTERIZER VASO D/PLASTICO 10VL
+Re. Det. Vetna: LICUADORA OSTER 4 VELOCIDADES V/VIDRIO ROJA
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10900
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10901
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10902
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10903
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10904
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10905
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10906
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10907
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10908
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10909
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10910
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10911
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10912
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10913
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10914
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10915
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10916
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10917
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10918
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10919
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10920
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10921
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10922
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10923
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10924
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10925
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10926
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10927
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10928
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10929
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10930
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10931
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10932
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10933
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10934
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10935
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10936
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10937
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10938
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10939
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10940
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10941
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10942
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10943
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10944
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10945
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10946
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10947
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10948
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10949
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10950
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10951
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10952
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10953
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10954
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10955
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10956
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10957
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10958
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10959
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10960
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10961
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10962
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10963
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10964
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10965
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10966
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10967
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10968
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10969
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10970
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10971
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10972
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10973
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10974
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10975
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10976
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10977
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10978
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10979
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10980
+Reg. Nota: AC-190
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10981
+Reg. Nota: AC-182
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10982
+Reg. Nota: AC-183
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10983
+Reg. Nota: AC-184
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10984
+Reg. Nota: AC-185
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10985
+Reg. Nota: AC-186
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10986
+Reg. Nota: AC-187
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10987
+Reg. Nota: AC-188
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10988
+Reg. Nota: AC-189
+Estableciendo conexion ..
+INSERT INTO notas_remision( folio, fecha, tipo_operacion, monto, flag, descuento) VALUES (?, ?, ?, ?, ?, ?)Estableciendo conexion ..
+Connection to SQLite has been established.
+id Reg. Nota Remi. 10989
+Reg. Nota: AC-190
